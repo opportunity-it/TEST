@@ -1,3 +1,9 @@
+:root {
+    --main-font-weight: 700;
+    --main-line-height: 1.16;
+    --main-color: #483C08;
+}
+
 /* general styles */
 ul {
     margin: 0;
@@ -133,7 +139,7 @@ body {
 
 .header-link {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: var(--main-font-weight);
     line-height: 1.15;
     text-decoration-line: underline;
 
@@ -192,7 +198,7 @@ body {
     margin-bottom: 20px;
 
     font-size: 26px;
-    font-weight: 700;
+    font-weight: var(--main-font-weight);
     line-height: 1.3;
 
     color: #F6F7E4;
@@ -241,7 +247,7 @@ body {
         max-width: 256px;
 
         font-size: 22px;
-        font-weight: 700;
+        font-weight: var(--main-font-weight);
         line-height: 1.18;
 
         color: #DFE4DE;
@@ -314,15 +320,15 @@ body {
     font-size: 33px;
     line-height: 1.18;
 
-    color: #483C08;
+    color: var(--main-color);
 }
 
 .form-time {
     margin-bottom: 3px;
 
     font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
+    font-weight: var(--main-font-weight);
+    line-height: var(--main-line-height);
 
     color: #F6E791;
 }
@@ -338,8 +344,8 @@ body {
     position: relative;
 
     font-size: 30px;
-    font-weight: 700;
-    line-height: 1.16;
+    font-weight: var(--main-font-weight);
+    line-height: var(--main-line-height);
 
     color: #6B6B6B;
 }
@@ -362,10 +368,10 @@ body {
 
 .current-price {
     font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
+    font-weight: var(--main-font-weight);
+    line-height: var(--main-line-height);
 
-    color: #483C08;
+    color: var(--main-color);
 }
 
 .wrapper-label {
@@ -399,7 +405,7 @@ body {
 
 .form-input::placeholder {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: var(--main-font-weight);
     line-height: 1.18;
 
     color: #777;
@@ -421,8 +427,8 @@ body {
     margin-bottom: 30px;
 
     font-size: 30px;
-    font-weight: 700;
-    line-height: 1.16;
+    font-weight: var(--main-font-weight);
+    line-height: var(--main-line-height);
 
     border-radius: 30px;
     border: transparent;
@@ -436,7 +442,7 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 1.16;
+    line-height: var(--main-line-height);
 
     color: #444;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -542,7 +548,7 @@ body {
     margin-bottom: 19px;
 
     font-size: 22px;
-    font-weight: 700;
+    font-weight: var(--main-font-weight);
     line-height: 1.18;
 
     text-align: center;
@@ -553,9 +559,9 @@ body {
 .manufacturer-text {
     font-size: 18px;
     font-weight: 400;
-    line-height: 1.16;
+    line-height: var(--main-line-height);
 
-    color: #483C08;
+    color: var(--main-color);
     text-align: center;
 }
 
@@ -580,8 +586,6 @@ body {
 
     color: #537D13;
     text-align: center;
-    /* background: linear-gradient(180deg, #F9E994 0%, #537D13 56.25%, #483C08 100%);
-    background-clip: text; */
     -webkit-text-fill-color: unset;
 }
 
@@ -610,7 +614,7 @@ body {
     font-weight: 400;
     line-height: 1.27;
 
-    color: #483C08;
+    color: var(--main-color);
 }
 
 @media screen and (min-width:1160px) {
