@@ -29,11 +29,18 @@ a {
 
 @font-face {
     font-family: 'Roboto';
-    src: url('../fonts/Roboto-Bold.ttf') format('truetype'),
-        url('../fonts/Roboto-Regular.ttf') format('truetype');
-    font-weight: normal;
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -599,9 +606,10 @@ body {
 
 @media screen and (min-width:1160px) {
     .uses-wrapper {
-        padding: 40px;
+        padding: 41px 98px 40px 40px;
 
         min-width: 760px;
+        min-height: 354px;
 
         background-image: url("../images/best-uses-bg-opt.png");
         background-repeat: no-repeat;
